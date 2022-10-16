@@ -162,3 +162,24 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+.home-title {
+  font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+  font-size: 2em;
+}
+
+
+
+.book {
+  font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+  font-size: 18px;
+}
+
+.joint{
+  font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+  font-size: 18px;
+}
+
+.msg {
+  background-color: #6f7364;
+  line-height: 1.5em;
+}
