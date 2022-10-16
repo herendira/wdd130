@@ -14,7 +14,7 @@
 nav a
 {
     text-align: center;
-    color: #fcfbfb;;
+    color: #181212;;
     text-decoration: none;
     padding: 35px;
 }
@@ -94,7 +94,7 @@ nav a:hover
 .join:hover
 {
     background-color:rgb(97, 141, 199);
-    color:beige;
+    color:rgb(17, 17, 16);
 }
 #background
 {
@@ -104,6 +104,8 @@ nav a:hover
 #logo_link 
 {
     padding-top:5px;
+    margin: center;
+    
 }  
 
 .msg
