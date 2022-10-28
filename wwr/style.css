@@ -3,10 +3,10 @@
 
 header {
     display: grid;
-    grid-template-columns: 85px auto;
+    grid-template-columns: 150px auto;
     background-color: #6f7364;
     opacity: 1;
-   height: 20px;
+    height: 30px;
 }
 nav {
     display: flex;
@@ -107,7 +107,7 @@ nav a
 {
     text-align: center;
     color: whitesmoke;
-    margin-top: 10%;
+    margin-top: 20%;
 }
 
 #hero-msg h4
