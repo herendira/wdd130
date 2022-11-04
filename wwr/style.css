@@ -5,7 +5,7 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     background-color: #6f7364;
-    opacity: 1;
+    opacity: 3;
     height: 30px;
 }
 nav {
