@@ -79,7 +79,7 @@ p {
   text-align: center;
 }
 .colors th {
-  background-color: #999;
+  background-color: rgb(129, 115, 115);
 }
 .colors td{
   width: 25%;
@@ -139,7 +139,7 @@ nav a:hover {
   grid-template-areas: ". . home home . ."
     ". . . top . ."
     ". left left right right ."
-    "page2 page2 . . page3 page3";
+    "Rivers Rivers . . page3 page3";
 }
 .sitemap > div {
 
@@ -151,8 +151,8 @@ nav a:hover {
   background-color: #ccc;
   line-height: 3em;
 }
-.sm-page2 {
-  grid-area: page2;
+.sm-rivers {
+  grid-area: rivers;
   background-color: #ccc;
   line-height: 3em;
 }
@@ -178,3 +178,10 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+/*.wireframe 
+{
+  display:inline;
+  height: 250px;
+  position: absolute;
+}/*
