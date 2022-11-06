@@ -1,0 +1,5 @@
+body
+{
+  background:rgb(158, 158, 128) url("../images/rivers.jpg") no-repeat right top fixed;
+  background-size: contain ;
+}

@@ -42,6 +42,9 @@ body {
 img {
   display: block;
   margin: 0 auto;
+  max-width:0 auto;
+
+  
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -139,20 +142,20 @@ nav a:hover {
   grid-template-areas: ". . home home . ."
     ". . . top . ."
     ". left left right right ."
-    "Rivers Rivers . . page3 page3";
+    "page2 page2 . . page3 page3";
 }
-.sitemap > div {
-
-  text-align: center;
-
+.sitemap >div
+{
+ text-align: center;
 }
+
 .sm-home {
   grid-area: home;
   background-color: #ccc;
   line-height: 3em;
 }
-.sm-rivers {
-  grid-area: rivers;
+.sm-page2 {
+  grid-area: page2;
   background-color: #ccc;
   line-height: 3em;
 }
@@ -177,6 +180,21 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+
+.msg {
+  background-color: #6f7364;
+  line-height: 1.5em;
+}
+
+.book {
+  font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+  font-size: 18px;
+}
+
+.joint{
+  font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+  font-size: 18px;
 }
 
 /*.wireframe 
