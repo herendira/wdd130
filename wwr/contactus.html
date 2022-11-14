@@ -22,10 +22,11 @@
       
        </nav>
     </header>
+   
 
 <div class="formatocuadro">
     <div id="feedback"></div>
-    <form action="/my-handling-form-page" method="post">…</form>
+    <form action="/my-handling-form-page" method="post">
     <ul>
         <li>
           <label for="name">Name:</label>
@@ -43,9 +44,12 @@
             <button type="submit">Send your message</button>
           </li>
       </ul>
+     
     </form>
-</div>
-<script>
+    
+ </div>
+  <script>
+  
     // get the feedback div element so we can do something with it.
     const feedbackElement = document.getElementById('feedback');
     // get the form so we can read what was entered in it.
@@ -61,7 +65,7 @@
         // add a class to move everything down so our message doesn't cover it.
         document.body.classList.toggle('moveDown');
     });
-</script>
+  </script>
                     
 </body>
     <footer>
