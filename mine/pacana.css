@@ -1,4 +1,344 @@
-body{
-    background:rgb(158, 158, 128) url("img/foto1-min.png") no-repeat right top fixed;
-  background-size: contain ;
+*{
+  margin: 0;
+  padding: 0;
+  
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Inter&family=Shalimar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
+
+html, body
+{
+  height: 100%;
+  background:#E0C858 ;
+}
+
+
+.header{
+  width: 82%;
+  height: 160px;
+  display:flex;
+  background-color: #F8E8A0;
+  font-size: 'Mali', cursive;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 10%;
+ 
+}
+.logo
+{
+  width: 250px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: -5px;
+  margin-right: 50px;
+ 
+ 
+  
+  margin-right: 0%;
+}
+
+
+
+nav a
+{
+    font-family: "Mali", cursive;
+    font-size: 30px;
+    text-align: center;
+    color: #3d3939;
+    text-decoration: none;
+    padding: 10px 25px;
+    align-items: center;
+    justify-content: flex-end;
+   
+    
+}
+nav a:hover
+{
+   padding:100x 100px;
+   background-color: #E0C830;
+   border:none;
+   border-radius: 50px;
+   
+}
+#bodycuadro
+{
+ 
+  width:100%;
+  display: grid;
+  height:1900px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  position: relative;
+  grid-template-columns: repeat(4 fr);
+  grid-template-rows: 1fr 1fr;
+ 
+ 
+  
+
+  
+  
+}
+#main1
+{
+  background-color:#E0C898;
+  box-shadow: -10px 10px 8px rgba(0,0,0,0.3);
+  grid-column: 1/5;
+  grid-row: 0/1;
+  margin-left: 25px;
+  position: relative;
+}
+
+h1
+{
+margin-top:100px;
+font-family:"Mali";
+color: #3d3939;
+font-size: 30px;
+
+text-align: center;
+
+}
+p
+{
+  font-family:"Mali", cursive;
+  color: #3d3939;
+  align-content: center;
+  
+  margin:50px;
+  
+}
+.girl
+{
+  position:absolute;
+  margin-left: 1500px;
+  box-shadow: -10px 10px 8px rgba(0,0,0,0.3);
+}
+.girls2
+{
+  
+  
+  position:absolute;
+  margin-left: 900px;
+  box-shadow: -10px 10px 8px rgba(0,0,0,0.3);
+}
+.hoja
+{
+  
+
+  position:absolute;
+  margin-left:200px;
+  box-shadow: -10px 10px 8px rgba(0,0,0,0.3);
+  
+}
+#main2
+{
+  background-color: aquamarine;
+  grid-column: 1/3;
+  grid-row: 2/3;
+  margin: 25px;
+  margin-bottom: 5px;
+  box-shadow: -10px 10px 8px rgba(0,0,0,0.3);
+ 
+  overflow: hidden;
+  position: relative;
+  
+}
+
+
+.toronto
+{
+  position: absolute;
+  height:200px;
+  width: 250px;
+  margin-left:600px;
+  box-shadow: -10px 10px 8px rgba(0,0,0,0.3);
+  margin-top: 250px;
+
+}
+.nieve
+{
+  position: absolute;
+ height:500px ;
+ width: 450px;
+ margin-left: 100px;
+ margin-bottom: 10px;
+ margin-top: -50px;
+ box-shadow: -10px 10px 8px rgba(0,0,0,0.3);
+}
+#main2 nav a
+{
+font-size: 25px;
+position: absolute;
+margin-top:500px;
+margin-left: 200px;
+}
+
+#main2 h2
+{
+  font-family:"Mali", cursive;
+  color: #3d3939;
+  margin-top:50px;
+  font-size: 30px;
+
+  text-align: center;
+
+}
+
+
+
+#main3
+{
+  background-color: #F8E8A0;
+  grid-column: 3/5;
+  grid-row:2/3 ;
+  margin-top: 25px;
+  box-shadow: -10px 10px 8px rgba(0,0,0,0.3);
+}
+
+
+
+#provin
+{
+  width:100%;
+  display: grid;
+  height:1900px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  
+  background-color: #E0C830;
+}
+
+#prov1
+{
+  background-color: #e04430;
+  grid-column: 0/1;
+  grid-row:1/2 ;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  
+}
+
+#prov2
+{
+  background-color: aqua;
+  grid-column: 0/1;
+  grid-row:2/3;
+  margin-left:25px;
+ 
+}
+#prov3
+{
+  background-color: aquamarine;
+  grid-column: 0/1;
+  grid-row:3/4 ;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+#prov4
+{
+  background-color: #3d3939;
+  grid-column: 0/1;
+  grid-row:4/5;
+  margin-bottom: 5px;
+  margin-left: 25px;
+}
+#yourcuadro
+{
+  width:100%;
+  display: grid;
+  height:1900px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5 fr)
+  
+}
+#your1
+{
+  background-color: #685820;
+  grid-column: 0/1;
+  grid-row:1/2 ;
+  margin-bottom: 25px;
+  margin-left: 25px;
+}
+#your2
+{
+  background-color: #E0C898;
+  grid-column: 0/1;
+  grid-row:2/3 ;
+  margin-bottom: 25px;
+  margin-left: 25px;
+}
+#your3
+{
+  background-color: #C0C8D0;
+  grid-column: 0/1;
+  grid-row:3/4;
+  margin-bottom: 25px;
+  margin-left: 25px;
+}
+#your4
+{
+  background-color: #B08810;
+  grid-column: 0/1;
+  grid-row:4/5 ;
+  margin-bottom: 25px;
+  margin-left: 25px;
+}
+#your5
+{
+  background-color: #404040;
+  grid-column: 0/1;
+  grid-row:5/6 ;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  
+}
+
+#footer
+{
+  background-image: url(img/hoja2.jpg);
+  background-repeat:no-repeat;
+  width: 100%;
+  height: 60px;
+  padding: 25px 50px;
+  margin-top: auto;
+  display: flex;
+  margin-bottom: 0%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer a
+{
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: "Mali", cursive;
+    text-decoration:solid;
+}
+
+footer p
+{
+  color: antiquewhite;
+  font-size: 15px;
+  font-family: "Mali", cursive;
+}  
+
+footer a:hover
+{
+    color:#E0C830;
+    font-size: 22px;
+    font-family: "Mali", cursive;
+
+   
+}
+footer.social img 
+{ 
+    padding-top: 20px;
+   
+}
+
