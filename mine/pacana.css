@@ -279,38 +279,90 @@ h3
 
 #prov1
 {
-  background-color: #e04430;
-  grid-column: 0/1;
-  grid-row:1/2 ;
-  margin-bottom: 25px;
-  margin-left: 25px;
-  
+  margin: 25px;
+  background-color: #f8bcb4;
+  overflow:scroll;
+  box-shadow: -10px 10px 8px rgba(0,0,0,0.3);
+  display:flex;
+  flex-direction: column;
+}
+.ardilla
+{
+  justify-self: center;
+  align-self: center;
+ height: 250px;
+ width: 250px;
+ box-shadow: -10px 10px 8px rgba(0,0,0,0.3);
 }
 
 #prov2
 {
   background-color: aqua;
-  grid-column: 0/1;
-  grid-row:2/3;
+  overflow:scroll;
+  box-shadow: -10px 10px 8px rgba(0,0,0,0.3);
   margin-left:25px;
+  display:flex;
+  flex-direction: column;
  
 }
 #prov3
 {
   background-color: aquamarine;
-  grid-column: 0/1;
-  grid-row:3/4 ;
+  overflow:scroll;
+  display:flex;
+  flex-direction: column;
   margin-left: 25px;
   margin-bottom: 25px;
   margin-top: 25px;
+  box-shadow: -10px 10px 8px rgba(0,0,0,0.3);
 }
+.lago
+{
+  height: 250px;
+  justify-self: center;
+  align-self: center;
+  box-shadow: -10px 10px 8px rgba(0,0,0,0.3);
+
+}
+
 #prov4
 {
-  background-color: #3d3939;
-  grid-column: 0/1;
-  grid-row:4/5;
+  background-color: #c27b7b;
+  overflow:scroll;
+  display:flex;
+  flex-direction: column;
   margin-bottom: 5px;
   margin-left: 25px;
+  box-shadow: -10px 10px 8px rgba(0,0,0,0.3);
+}
+.abeja
+{ 
+  height: 250px;
+  justify-self: center;
+  align-self: center;
+  box-shadow: -10px 10px 8px rgba(0,0,0,0.3);
+
+}
+#prov4 p
+{
+  color:#E0C830;
+  font-family:"Mali", cursive;
+  color: #3d3939;
+  align-content: center;
+  padding: 0%;
+}
+.tulipan
+{
+  height: 250px;
+  width: 250px;
+  justify-self: center;
+  align-self: center;
+  box-shadow: -10px 10px 8px rgba(0,0,0,0.3);
+
+}
+#provin a
+{
+ justify-items: flex-start;
 }
 #yourcuadro
 {
@@ -325,43 +377,162 @@ h3
 }
 #your1
 {
-  background-color: #685820;
+  height: 350px;
+  background-color: #E0C898;
   grid-column: 0/1;
   grid-row:1/2 ;
   margin-bottom: 25px;
   margin-left: 25px;
+  overflow: hidden;
+  
+  
+}
+.otawa
+{
+  height: 250px;
+  margin-left: 50px;
+  align-self: center;
+  box-shadow: -10px 10px 8px rgba(0,0,0,0.3);
+}
+.hongo
+{
+  height: 250px;
+  margin-left: 50px;
+  align-self: center;
+  box-shadow: -10px 10px 8px rgba(0,0,0,0.3);
+}
+.arboles
+{
+  height: 250px;
+  margin-left: 50px;
+  align-self: center;
+  box-shadow: -10px 10px 8px rgba(0,0,0,0.3);
+  
+
+}
+
+.hojaverde
+{
+  height: 250px;
+  margin-left: 50px;
+  align-self: center;
+  box-shadow: -10px 10px 8px rgba(0,0,0,0.3);
 }
 #your2
 {
   background-color: #E0C898;
+  height: 350px;
   grid-column: 0/1;
   grid-row:2/3 ;
   margin-bottom: 25px;
   margin-left: 25px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows:1fr;
+ 
+}
+
+#your2 a:nth-of-type(1)/*reyna*/
+
+{
+  
+  margin-left: 70px;
+  margin-top:70px;
+  text-align:center;
+  
+  
+  
+ }
+
+ #your2 a:nth-of-type(2) /*family*/
+{
+  grid-column: 3/3;
+
+  margin-left: 55px;
+  margin-top:-170px;
+  text-align:center;
+}
+ #your2 a:nth-of-type(3)/*planeta*/
+{
+ text-align:center;
+ grid-column: 3/3;
+  margin-left: 40px;
+  margin-top:-100px;
+  margin-bottom: 40px;
+  padding: 20px;
+  
+  
+  
 }
 #your3
 {
-  background-color: #C0C8D0;
+  background-color: #E0C898;
   grid-column: 0/1;
   grid-row:3/4;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   margin-left: 25px;
+  overflow: hidden;
+  height: 350px;
+  
 }
+
 #your4
 {
-  background-color: #B08810;
+  background-color: #E0C898;
   grid-column: 0/1;
   grid-row:4/5 ;
   margin-bottom: 25px;
   margin-left: 25px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows:1fr ;
+  height: 350px;
 }
+
+#your4 a:nth-of-type(1)/*reyna*/
+
+{
+  
+  margin-left: 70px;
+  margin-top:70px;
+  text-align:center;
+  
+  
+  
+ }
+
+ #your4 a:nth-of-type(2) /*family*/
+{
+  grid-column: 3/3;
+
+  margin-left: 55px;
+  margin-top:-170px;
+  text-align:center;
+}
+ #your4 a:nth-of-type(3)/*planeta*/
+{
+ text-align:center;
+ grid-column: 3/3;
+  margin-left: 40px;
+  margin-top:-100px;
+  margin-bottom: 40px;
+  padding: 20px;
+  
+  
+  
+}
+
 #your5
 {
-  background-color: #404040;
+  background-color: #E0C898;
   grid-column: 0/1;
   grid-row:5/6 ;
   margin-bottom: 25px;
   margin-left: 25px;
+  overflow: hidden;
+  height: 350px;
   
 }
 
